@@ -1,61 +1,89 @@
+/* white -rgba(255, 252, 242, 1), #FFFCF2 */
+/* gray - rgba(204, 197, 185, 1), #CCC5B9 */
+/* black - rgba(37, 36, 34, 1), #252422 */
+/* darkgray -rgb(64,61,57), #403D39; */
+/* orange #EB5E28, rgba(235, 94, 40, 1) */
+
 body {
-    font-family: 'Roboto Slab', serif;
-    color: #3e3e3e;
+    color: #252422;
 }
 
 p {
-    font-family: 'Droid Serif', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.85rem;
     margin-bottom: 30px;
     line-height: 24px;
+    letter-spacing: 0.6px;
 }
 
 h3 {
     margin: 20px 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
+}
+h2 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
 }
 
 /*NAV STYLE */
 nav.navbar {
-      padding: 30px;
+    padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 /* MAIN HEADER STYLE */
 #main-header {
-    height: 80vh;
+    height: 85vh;
     width: 100%;
     z-index: -1;
     top: 0;
-    background-image:linear-gradient(to bottom, rgba(155, 155, 155, 0.9), rgba(155, 155, 155, 0.5)), url(../img/header/apple-devices-artificial-flowers-business-196658.jpg);
+    background-image: linear-gradient(150deg, rgba(64,61,57,0.8) 0%,rgba(64,61,57,0.7) 60%,rgba(235,94,40,0.2) 85%,rgba(235,94,40,0.5) 100%), url(../img/header/apple-devices-artificial-flowers-business-196658.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
     align-items: center;
-    color: #3e3e3e;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    color: #FFFCF2;
+
 }
-#main-header .header-caption h2 {
-    font-family: 'Roboto Slab', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 200;
-}
+
 #main-header .header-caption h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 5rem;
+    font-family: 'Roboto Slab', sans-serif;
+    letter-spacing: 8px;
+    font-size: 6rem;
     font-weight: 700;
 }
-#main-header .header-caption .read-more {
+#main-header .header-caption h2 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    letter-spacing: 14px;
     font-family: 'Montserrat', sans-serif;
-    background-color: #1EA896;
-    color: #3e3e3e;
+}
+#main-header .header-caption .read-more {
+    background-color: #EB5E28;
+    color: inherit;
     font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #main-header .header-caption .read-more:hover {
-    -moz-box-shadow:0 0 10px 2px rgba(182, 182, 182, 0.75);
-    -webkit-box-shadow: 0  0 10px 2px rgba(182, 182, 182, 0.75);
-    box-shadow: 0 0 10px 2px rgba(182, 182, 182, 0.75);
-    background-color: #f3f3f3;
+    background-color: #CCC5B9;
 }
 
 /*SECTION SERVICES STYLE*/
@@ -66,7 +94,7 @@ section {
 section .section-header {
     text-align: center;
     margin: 100px 0 50px 0;
-   width: 100%;
+    width: 100%;
 }
 section .section-title {
     font-family: 'Montserrat', sans-serif;
@@ -77,16 +105,23 @@ section .section-title {
     height: 80px;
     width: 80px;
     font-size: 2em;
-    background-color: #1EA896;
+    background-color: #EB5E28;
     line-height: 80px;
-    color: #fff;
+    color: #FFFCF2;
     border-radius: 50%;
-    border: 1px solid #1EA896;
+    border: 1px solid #EB5E28;
+    -webkit-transition: transform 0.4s linear;
+    -moz-transition: transform 0.4s linear;
+    -o-transition: transform 0.4s linear;
     transition: transform 0.4s linear;
 }
 #services .fa:hover {
-    background-color: #fff;
-    color: #1EA896;
+    background-color: #FFFCF2;
+    color: #EB5E28;
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
     transform: rotate(360deg);
 }
 .selector-for-some-widget {
