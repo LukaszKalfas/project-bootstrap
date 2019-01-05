@@ -43,11 +43,14 @@ nav.navbar {
     width: 100%;
     z-index: -1;
     top: 0;
+    background-image:-moz-linear-gradient(150deg, rgba(64,61,57,0.8) 0%,rgba(64,61,57,0.7) 60%,rgba(235,94,40,0.2) 85%,rgba(235,94,40,0.5) 100%), url(../img/header/apple-devices-artificial-flowers-business-196658.jpg);
+    background-image: -webkit-linear-gradient(150deg, rgba(64,61,57,0.8) 0%,rgba(64,61,57,0.7) 60%,rgba(235,94,40,0.2) 85%,rgba(235,94,40,0.5) 100%), url(../img/header/apple-devices-artificial-flowers-business-196658.jpg);
     background-image: linear-gradient(150deg, rgba(64,61,57,0.8) 0%,rgba(64,61,57,0.7) 60%,rgba(235,94,40,0.2) 85%,rgba(235,94,40,0.5) 100%), url(../img/header/apple-devices-artificial-flowers-business-196658.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
     display: flex;
     display: -webkit-box;
     display: -moz-box;
@@ -145,9 +148,7 @@ section .section-title {
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;     
-
 }
-
 
 #portfolio .photo1 {
     background-image: url(../img/portfolio/box_of_cookies.jpg);
@@ -172,7 +173,6 @@ section .section-title {
 #portfolio .photo6 {
     background-image: url(../img/portfolio/typing_on_laptop.jpg);
 }
-
 
 #portfolio .portfolio-image-mask {
     display: flex;
@@ -259,9 +259,14 @@ section .section-title {
 
 /* SECTION CONTACT STYLE */
 #contact {
-    background-image: linear-gradient(150deg, rgba(64,61,57,0.8) 0%,rgba(64,61,57,0.7) 60%,rgba(235,94,40,0.2) 85%,rgba(235,94,40,0.5) 100%), url(../img/footer/world-map.jpg);
     background-image: -moz-linear-gradient(150deg, rgba(64,61,57,0.8) 0%,rgba(64,61,57,0.7) 60%,rgba(235,94,40,0.2) 85%,rgba(235,94,40,0.5) 100%), url(../img/footer/world-map.jpg);
     background-image: -webkit-linear-gradient(150deg, rgba(64,61,57,0.8) 0%,rgba(64,61,57,0.7) 60%,rgba(235,94,40,0.2) 85%,rgba(235,94,40,0.5) 100%), url(../img/footer/world-map.jpg);
+    background-image: linear-gradient(150deg, rgba(64,61,57,0.8) 0%,rgba(64,61,57,0.7) 60%,rgba(235,94,40,0.2) 85%,rgba(235,94,40,0.5) 100%), url(../img/footer/world-map.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
     color:  #FFFCF2;
 }
 #contact h2 {
@@ -315,6 +320,7 @@ section .section-title {
     box-shadow: none;
 }
 
+/* FOOTER STYLE */
 footer {
     padding: 100px 0 50px 0;
 }
