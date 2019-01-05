@@ -83,13 +83,14 @@ nav.navbar {
     background-color: #EB5E28;
     color: inherit;
     font-size: 0.9rem;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
 }
 
 #main-header .header-caption .read-more:hover {
     background-color: #CCC5B9;
+    color: #EB5E28;
 }
 
 /*SECTION SERVICES STYLE*/
